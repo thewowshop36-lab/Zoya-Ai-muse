@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --sat: env(safe-area-inset-top);
+    --sab: env(safe-area-inset-bottom);
+    --sal: env(safe-area-inset-left);
+    --sar: env(safe-area-inset-right);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom glow and luxury shimmer */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFE5D9 0%, #E5A99B 50%, #D47E68 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.champagne-gradient {
+  background: linear-gradient(135deg, #FDF7F2 0%, #F5DFD5 100%);
+}
+
+.luxury-card {
+  background: rgba(35, 15, 27, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(229, 169, 155, 0.18);
+}
+
+.luxury-glass {
+  background: rgba(45, 18, 34, 0.85);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(247, 231, 206, 0.15);
+}
+
+.henna-pattern-bg {
+  background-color: #1a0a14;
+  background-image: radial-gradient(#e5a99b 0.75px, transparent 0.75px), radial-gradient(#8c3821 0.75px, #1a0a14 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(23, 9, 18, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(229, 169, 155, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(229, 169, 155, 0.6);
+}
+
+/* Urdu Nastaliq styling */
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  line-height: 2.2;
+}

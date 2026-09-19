@@ -1,0 +1,7 @@
+{
+  "name": "Zoya: Your AI Beauty Muse",
+  "description": "AI-powered female beauty & lifestyle mobile app featuring bilingual Urdu/English AI beauty bot, virtual Mehndi & nail art AR designer, AI makeup & lash scanner, and personalized beauty academy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
